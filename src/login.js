@@ -32,7 +32,7 @@ const Loginpage = () => {
   useEffect(() => {
     const loginRequest = async () => {
       try {
-        const response = await axios.post('http://localhost:3000/api/login', formData, {
+        const response = await axios.post('https://social-media-backend-9hfkk1ptr-bhawna89s-projects.vercel.app/api/login', formData, {
           headers: {
             'Content-Type': 'application/json'
           }
